@@ -8,8 +8,8 @@
 
 ## Introducción
 
-[RSpec][] es una plataforma de Desarrollo Dirigido por Comportamiento (Behavior
-Driven Development) para Ruby.
+[RSpec][] es una plataforma para Ruby de Desarrollo Dirigido por Comportamiento,
+en inglés Behavior Driven Development[^BDD] (BDD).
 RSpec provee dos plataformas para escribir y ejecutar ejemplos de como tu
 aplicación debe comportarse[^rspec]:
 
@@ -35,11 +35,11 @@ Más  tarde en 2006, el mantenimiento fue transferido a [David Chelimsky][].
 
 ## Desarrollo Dirigido por Comportamiento (BDD)
 
-Desarrollo Dirigido por Comportamiento (Behavior Driven Development) [^BDD] es
-un proceso de desarrollo [Agil][] que contiene aspectos del Planeo dirigido por
-Test de Aceptación ([Acceptance Test Driven Planning][]), Diseño Dirigido por
-Dominios [Domain Driven Design][] y Desarrollo Dirigido por Pruebas
-[Test Driven Development][].
+El Desarrollo Dirigido por Comportamiento (Behavior Driven Development) es un
+proceso de desarrollo [Agil][] que contiene aspectos del Planeo dirigido por
+Test de Aceptación, en inglés [Acceptance Test Driven Planning][],
+de Diseño Dirigido por Dominios,  [Domain Driven Design][],
+y Desarrollo Dirigido por Pruebas [Test Driven Development][].
 
 > El Desarrollo Dirigido por Comportamiento es una metodología “de afuera hacia
 > adentro” (“outside-in”).
@@ -57,8 +57,8 @@ inversores.
 
 ## Implementación
 
-RSpec es un Lenguaje Específico de Dominio (Domain Specific Language) para
-describir el comportamiento esperado de un sistema mediante ejemplos
+RSpec es un Lenguaje Específico de Dominio, [Domain Specific Language] (DSL),
+para describir el comportamiento esperado de un sistema mediante ejemplos
 ejecutables.
 
 Aquí está un ejemplo muy simple de RSpec.
@@ -72,11 +72,13 @@ Aquí está un ejemplo muy simple de RSpec.
 {:lang=ruby html_use_syntax=true}
 
 
+<!-- References -->
 [^rspec]:       [RSpec website](http://rspec.info)
 [^cucumber]:    [Cucumber wiki](http://github.com/aslakhellesoy/cucumber/wikis)
 [^BDD]:         [BDD by Dan North](http://dannorth.net/tags/agile/bdd)
 [^rspec-history]:  [Nick Sieger: BDD with RSpec](http://blog.nicksieger.com/articles/2007/11/04/rubyconf-day-3-behaviour-driven-development-with-rspec)
 
+<!-- Links -->
 [Acceptance Test Driven Planning]: http://testing.thoughtworks.com/node/89
 [Agile]: http://en.wikipedia.org/wiki/Agile_software_development
 [Aslak Hellesøy]: http://blog.aslakhellesoy.com/
@@ -84,6 +86,7 @@ Aquí está un ejemplo muy simple de RSpec.
 [Dave Astels]: http://blog.daveastels.com/
 [David Chelimsky]: http://blog.davidchelimsky.net
 [Domain Driven Design]: http://domaindrivendesign.org/
+[Domain-Specific Language]: http://en.wikipedia.org/wiki/Domain_Specific_Language
 [JBehave]: http://jbehave.org/
 [RSpec]: http://rspec.info
 [Ruby]: http://ruby-lang.org
@@ -92,5 +95,9 @@ Aquí está un ejemplo muy simple de RSpec.
 [Test Driven Development]: http://en.wikipedia.org/wiki/Test-driven_development
 [ThoughtWorks]: http://www.thoughtworks.com/
 
-*[TDD]: Test Driven Development
+<!-- Abbreviations -->
 *[BDD]: Behavior Driven Development
+*[DSL]: Domain Specific Language
+*[TDD]: Test Driven Development
+
+
