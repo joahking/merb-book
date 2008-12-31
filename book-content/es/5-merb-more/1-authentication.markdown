@@ -70,7 +70,6 @@ encriptación "salada")
 * API key/token
 * Autenticación básica HTTP
 
-
 ### merb-auth-more
 
 [merb-auth-more][] añade característcas extras a merb-auth-core.
@@ -144,7 +143,6 @@ La configuración de la autenticación de usuarios por defecto es proveida usand
 usuario y contraseña.
 Por supuesto antes tienes que configurar la base de datos y añadir un usuario.
 
-
     $ rake db:automigrate
     $ merb -i
     >> u = User.new(:login => "login_name")
@@ -189,7 +187,7 @@ Abre para editar ``config/router.rb``:
 {:lang=ruby html_use_syntax=true}
 
 Esto causará que el usuario tenga que iniciar sesión.
-Esto es descubierto en el enrutador (router) y cuando falla, se detiene allí. (???)
+Esto es descubierto en el enrutador (router) y cuando falla se detiene allí. (???)
 Intenta acceder a <http://localhost:4000/hello_world> ahora.
 ¡Verás que necesitas iniciar sesión para acceder!
 
@@ -234,7 +232,6 @@ Realmente... Para una autenticación básica "Hola Mundo", esto es todo.
 
 Si necesitas más personalización, puedes hacer:
 
-
     rake slices:merb-auth-slice-password:freeze:views
 {:lang=ruby html_use_syntax=true}
 
@@ -243,7 +240,6 @@ tu aplicación.
 
 Entonces solo necesitas copiar o mover las plantillas a tu carpeta ``app/views``
 y editarlas.
-
 
 [^merb-stack-app]: merb-gen app hello\_world
 

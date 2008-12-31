@@ -57,7 +57,8 @@ popularidad del software escrito en Ruby, particularmente la
 * Todo puede ser extendido/modificado
 * Alta legibilidad del código
 
-Para aprender más sobre el lenguaje Ruby, referirse al [Sitio Oficial del lenguaje Ruby][].
+Para aprender más sobre el lenguaje Ruby, referirse al
+[Sitio Oficial del lenguaje Ruby][].
 
 ## Ejemplos de Código ##{: #code-examples}
 
@@ -127,7 +128,8 @@ es equivalente a:
 ## Merb y Ruby ##{: #merb-and-ruby}
 
 Merb intenta de ser tan parecido al lenguaje Ruby como sea posible.
-Por eso es que es importante entender lo que se ha dado en llamar la "Manera Ruby".
+Por eso es que es importante entender lo que se ha dado en llamar la
+"Manera Ruby".
 
 Durante RubyConf 2008, Matz hizo un comentario sobre Merb:
 
